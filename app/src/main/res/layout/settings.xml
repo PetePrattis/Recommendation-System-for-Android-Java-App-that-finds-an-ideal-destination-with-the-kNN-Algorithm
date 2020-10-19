@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/accountText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Ρυθμίσεις Λογαριασμού"
+        android:textAlignment="textStart"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        android:divider="?android:listDivider"
+        android:showDividers="middle"
+        android:paddingLeft="5dp">
+
+
+
+
+        <Button
+            android:id="@+id/signout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Αποσύνδεση"
+            android:drawableEnd="@drawable/ic_signout_black_24dp"
+            android:background="@color/transparent"
+            android:textAlignment="textStart"/>
+
+
+        <Button
+            android:id="@+id/ch_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Αλλαγή κωδικού πρόσβασης"
+            android:drawableEnd="@drawable/ic_change_pass_24dp"
+            android:background="@color/transparent"
+            android:textAlignment="textStart"/>
+
+        <Button
+            android:id="@+id/ch_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Αλλαγή email"
+            android:drawableEnd="@drawable/ic_change_email_24dp"
+            android:background="@color/transparent"
+            android:textAlignment="textStart"/>
+
+
+        <Button
+            android:id="@+id/delete_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Διαγραφή λογαριασμού"
+            android:drawableEnd="@drawable/ic_delete_account_24dp"
+            android:background="@color/transparent"
+            android:textAlignment="textStart"/>
+        <Button
+            android:id="@+id/change_quest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Αλλαγή απαντήσεων ερωτηματολογίου"
+            android:drawableEnd="@drawable/ic_question_answer_black_24dp"
+            android:background="@color/transparent"
+            android:textAlignment="textStart"/>
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/historyText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Ιστορικό"
+        android:textAlignment="textStart"/>
+
+    <Button
+        android:id="@+id/show_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Προβολή ιστορικού βαθμολογιών"
+        android:drawableEnd="@drawable/history_button_24dp"
+        android:background="@color/transparent"
+        android:textAlignment="textStart"
+        android:paddingLeft="5dp"/>
+
+
+    <TextView
+        android:id="@+id/helpText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Βοήθεια"
+        android:textAlignment="textStart"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        android:divider="?android:listDivider"
+        android:showDividers="middle"
+        android:paddingLeft="5dp">
+    <Button
+        android:id="@+id/show_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Χρήση της εφαρμογής"
+        android:drawableEnd="@drawable/help_24dp"
+        android:background="@color/transparent"
+        android:textAlignment="textStart"/>
+
+    <Button
+        android:id="@+id/show_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Σχετικά με την εφαρμογή "
+        android:background="@color/transparent"
+        android:textAlignment="textStart"/>
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

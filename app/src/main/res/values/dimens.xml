@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="content_from_header">2dp</dimen>
+
+    <dimen name="header1">96sp</dimen>
+    <dimen name="header2">60sp</dimen>
+    <dimen name="header3">48sp</dimen>
+    <dimen name="header4">34sp</dimen>
+    <dimen name="header5">24sp</dimen>
+    <dimen name="header6">20sp</dimen>
+
+    <dimen name="sub1">16sp</dimen>
+
+    <dimen name="body1">14sp</dimen>
+    <dimen name="button">14dp</dimen>
+    <dimen name="overline">11sp</dimen>
+</resources>

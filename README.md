@@ -1,2 +1,11 @@
-# Recommendation-System-for-Android-Java-App-that-finds-an-ideal-destination-with-the-kNN-Algorithm
-This project is an Android mobile application, written in Java programming language and implements a Recommender System using the k-Nearest Neighbors Algorithm. In this way the algorithm predicts the possible ratings of the users according to scores that have already been submitted to the system.
+# An Android Application
+
+**This is an Android App written in Java and it is my thesis project as a Computer Science student in University of Piraeus**
+
+_This project was created for my thesis project in collaboration with Alexandra Athanasakou under the supervision of the assistant professor Efthimios Alepis_
+
+> #### Abstract
+>
+>>The "Kastropolities" application is clearly an application for tourism and offers its users, something that many in their holidays, consider it simple and easy. Users of our Android app no longer need to search for hours between all possible areas, as the app provides them with a smart, interesting and inspiring holiday destination, easily and quickly. The average user experience is the targeted showcase of compatible areas in Laconia and Messinia, according to the preferences and relevant ratings set by each user. Along with this, information is provided on each location of the two prefectures stored in our database, both for the morphology of the soil and the flora, as well as for the activities, the type of alternative tourism, the attractions, the museums, the local history, important personalities, etc.
+This project is an Android mobile application, written in Java programming language and implements a Recommender System using the k-Nearest Neighbors Algorithm. In this way the algorithm predicts the possible ratings of the users according to scores that have already been submitted to the system. However, other techniques are used so that the application can offer alternative suggestions to the user. An example is the use of a similarity measurement tool, in order to find areas whose characteristics match the preferences set by users. All user data and the locations’ information are stored in the Firebase Realtime Database which is a cloud-hosted database. It is an innovative way to manage our data and synchronize it on all devices and users in real time.
+In this paper, we will analyze the Recommendation System, a Machine Learning approach, that was implemented and the Algorithm behind it, its parameters, the metrics used but also the logic and the code behind it all. Of course, we will present the system’s architecture, the Database we have selected and key code snippets related to the operation of the application.

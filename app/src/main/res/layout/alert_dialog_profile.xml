@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="20dp">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/photo_profile"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Όνομα"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="-"
+        android:id="@+id/text_profile_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Email"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:id="@+id/text_profile_email"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Τηλέφωνο"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="-"
+        android:id="@+id/text_profile_tel"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Απαντήσεις Ερωτηματολογίου"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/content_from_header">
+    <TextView
+        android:id="@+id/thalassa"
+        android:layout_width="65dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/body1"
+        android:text="Θάλασσα"
+        android:background="@drawable/roundedfull_accept"/>
+    <TextView
+        android:id="@+id/vouno"
+        android:layout_width="65dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/body1"
+        android:text="Βουνό"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/roundedfull_accept"/>
+    <TextView
+        android:id="@+id/pediada"
+        android:layout_width="65dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/body1"
+        android:text="Πεδιάδα"
+        android:background="@drawable/roundedfull_accept"/>
+
+        <TextView
+            android:id="@+id/history"
+            android:layout_width="55dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/body1"
+            android:text="Ιστορία"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/roundedfull_accept"/>
+
+    </LinearLayout>
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/content_from_header">-->
+    <TextView
+        android:id="@+id/alternative_tourism"
+        android:layout_width="170dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/body1"
+        android:text="Εναλλακτικός Τουρισμός"
+        android:layout_marginTop="@dimen/content_from_header"
+        android:background="@drawable/roundedfull_accept"/>
+
+    <TextView
+        android:id="@+id/night_life"
+        android:layout_width="110dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/body1"
+        android:layout_marginTop="@dimen/content_from_header"
+        android:text="Νυχτερινή ζωή"
+        android:background="@drawable/roundedfull_accept"/>
+
+    </LinearLayout>
+<!--</LinearLayout> -->
+</ScrollView>
